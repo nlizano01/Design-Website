@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="styles6.css">
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <h2>Please respond to the following questions as truthfully as possible:</h2>
+    <br>
+    <form>
+        <p>Have you completed each of our courses? </p>
+        <input type="radio" name="y/n" id="option-1" value="Yes">
+        <label for="option-1">Yes</label>
+        <input type="radio" name="y/n" id="option-2" value="No">
+        <label for="option-2">No</label>
+        <br>
+        <br>
+        <p>Which coding language are you currently trying to learn?</p>
+        <select name="language" id="language">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+            <option value="all">Each of them</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="bio">What are some things you liked about our courses?</label>
+        <br>
+        <textarea name="positives" id="positives" cols="30" rows="5" placeholder="I enjoyed..."></textarea>
+        <br>
+        <br>
+        <label for="bio">What are some things you disliked about our courses?</label>
+        <br>
+        <textarea name="negatives" id="negatives" cols="30" rows="5" placeholder="I did not like..."></textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" id="submit" value="Submit Response">
+        <input type="reset" name="reset" id="reset" value="Reset Response">
+    </form>    
+</body>
+</html>

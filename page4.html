@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Javascript</title>
+    <link rel="stylesheet" href="styles4.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <table cellspacing="0" id="t1">
+            <tr>
+                <td class="td1"><img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png" height="50px" width="75px"></td>
+                <td class="td1"><a href="index.html">Homepage</a></td>
+                <td class="td1"><a href="page2.html">Learn HTML</a></td>
+                <td class="td1"><a href="page3.html">CSS and Styling</a></td>
+                <td class="td1"><a href="page5.html">About the Author</a></td>
+                <td class="td1"><input type="text" placeholder="Search..."></td>
+            </tr>
+        </table>
+        <header>
+            <div id="heading">
+                <h1 align="center">LEARN JAVASCRIPT</h1>
+            </div>
+        </header>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 align="center">What is the purpose of Javacript?</h2>
+    <br>
+    <p>While HTML is used for the basis of all websites and CSS is used for the styling of websites, Javascript is the language coders use for the <i>functionality</i> of websites. While HTML and CSS are considered <i>coding</i> languages, Javascript is considered a <i>programming</i> language. In this course, you will learn all about Javascript and how it works.</p>
+    <br>
+    <br>
+    <h2 align="center">How to start a Javascript document</h2>
+    <br>
+    <p align="center"><b>Link to your Javascript file in your HTML file (just as you would with CSS)</b></p>
+    <br>
+    <center><img src="JScode1.png" width="600px" class="images"></center>
+    <br>
+    <br>
+    <h2 align="center">Variables</h2>
+    <br>
+    <p>Vairbles are the basis of all programming languages. Basically, variables are things that <i>vary</i> within your code. In Javascript, there are three types of variables. The first type is the 'const' variable meaning <i>constant</i>. This is a type of variable that cannot be redefined (changed) within your code. The other two types of variables 'let' and 'var' <i>can</i> be redefined within your code. The difference between these two is that 'let' is only available in a specific block of code while 'var' can be redefined at any area within your code.</p>
+    <br>
+    <h2 align="center">Data Types</h2>
+    <br>
+    <p>The second most important concept to understand is data types. Essentially, data types refer to the type of information stored within a variable. In Javascript, there are eight data types: String, Boolean, Number, Bigint, Null, Undefined, Symbol and Object. In this course, we will be focusing on numbers, booleans and strings, though we will also go over objects later on.</p>
+    <br>
+    <p align="center"><b>Javascript Data Types:</b></p>
+    <br>
+    <center><table id="t2" cellspacing="0">
+            <tr>
+                <td class="td2">String</td>
+                <td class="td2">Refers to words and phrases. Must be wrapped in single quotation marks when used ('').</td>
+            </tr>
+            <tr>
+                <td class="td2">Number</td>
+                <td class="td2">Refers to numbers (ex: 1, 2, 3, etc.)</td>
+            </tr>
+            <tr>
+                <td class="td2">Boolean</td>
+                <td class="td2">Used for 'true' or 'false' statements. *NOTE: 'true' and 'false' are the only acceptable keywords</td>
+            </tr>
+    </table></center>
+    <br>
+    <br>
+    <h2 align="center">How to declare variables</h2>
+    <br>
+    <p>In Javascript, declaring variables is quite simple. To begin, write the type of variable you want to use (const, var or let), then, write the variable name (NOTE: all variables have names for easy distinction). After this, write "=" followed by whatever data you want to store (keep in mind data types: boolean, string and number).The image below shows how this could be accomplished.</p>
+    <br>
+    <center><img src="JScode2.png" width="800px" class="images"></center>
+    <br>
+    <br>
+    <h2 align="center">Objects</h2>
+    <br>
+    <p>Objects are a special form of data types that allow a programmer to assign multiple values to a variable. Each of these values consists of two elements being a 'key' and a 'value'. Generally, these will use the 'const' variable. Each value is also to be seperated with a comma. The image below shows how to use them.</p>
+    <br>
+    <center><img src="JScode3.png" width="400px" class="images"></center>
+    <br>
+    <br>
+    <h2 align="center">Arrays</h2>
+    <br>
+    <p>Another way to include multiple values within a single variable is through the use of arrays. Similarly to objects, arrays allow programmers to store multiple values of different data, however, arrays do not include keys and consist of only the values. The image below shows how to use them.</p>
+    <br>
+    <center><img src="JScode4.png" width="800px" class="images"></center>
+    <br>
+    <h2 align="center">Functions</h2>
+    <br>
+    <p>In addition to variables and data types, another crucial element to understand in coding is functions. Essentially, functions are blocks of code that use different variables and methods (more info on methods later) to execute various tasks. This could range from changing a color from the click of a button to doing advanced math calculations. Of course, functions must be called in order for them to actually work. To call them, simply place the name of your function along with a set of parentheses (ex: myFunction()). In this course, you will learn the basics of functions. The image below shows how to set one up.</p>
+    <br>
+    <center><img src="JScode5.png" width="400px" class="images"></center>
+    <br>
+    <br>
+    <h2 align="center">Methods</h2>
+    <br>
+    <p>While functions are mostly blocks of code for containing various things, methods are lines of code that actually execute a specific task. For example, one of the most popular lines of code is the console.log() method, which you may have seen being used in the function above. Using this method, programmers can test out their code to assure that it works as intended. There are many other methods which are outlined in the table below. *NOTE: Some methods such as .toUpperCase (which makes text upper case) are meant to have a variable placed before the method. For example, if you have a variable named "paraOne", you could write "paraOne.toUpperCase()" to make the text all upper case.</p> 
+    <br>
+    <p align="center"><b>List of important methods</b></p>
+    <br>
+    <center><table id="t2" cellspacing="0">
+        <tr>
+            <td class="td2">console.log('Put your text here')</td>
+            <td class="td2">Prints out text onto the console (used for testing purposes).</td>
+        </tr>
+        <tr>
+            <td class="td2">document.getElementById('Place element here')</td>
+            <td class="td2">Used for referencing HTML elements</td>
+        </tr>
+        <tr>
+            <td class="td2">.push('Add value here')</td>
+            <td class="td2">Adds values to an array</td>
+        </tr>
+        <tr>
+            <td class="td2">Math.random()</td>
+            <td class="td2">Generates a random number value between 0 and 1.</td>
+        </tr>
+        <tr>
+            <td class="td2">alert('Place your message here')</td>
+            <td class="td2">Creates an alert box</td>
+        </tr>
+        <tr>
+            <td class="td2">window.open('Add url here')</td>
+            <td class="td2">Opens a new window</td>
+        </tr>
+        <tr>
+            <td class="td2">.toUpperCase('Add text here')</td>
+            <td class="td2">Makes text upper case</td>
+        </tr>
+        <tr>
+            <td class="td2">.toLowerCase('Add text here')</td>
+            <td class="td2">Makes text lower case</td>
+        </tr>
+</table></center>
+<br>
+<br>
+<h2 align="center">If statements</h2>
+<br>
+<p>One very popular concept in Javascript is 'If statements'. These are generally used to cause something to happen if two values match. The image below shows how this would work. In that example, the console would indeed print out 'Hello World' as the two values match.</p>
+<br>
+<center><img src="JScode6.png" width="400px" class="images"></center>
+<br>
+<br>
+<h2 align="center">For loops</h2>
+<br>
+<p>In addition to If statements, another popular concept in Javascript is 'For loops'. These are used to cause a certain event to occur in a loop for a certain amount of time. The image below shows how this would work. That example would cause the message 'Hello World' to appear on the console 14 times.</p>
+<br>
+<center><img src="JScode7.png" width="400px" class="images"></center>
+<br>
+<h2 align="center">"=" vs "==" vs "==="</h2>
+<br>
+<p>In earlier sections, you may have noticed multiple different types of equal signs being used. In fact, in Javascript, there are three types of equal signs and it is important for a programmer to know the difference between each one of them. The first type of equal sign you may have seen is the single equal sign. This is the most common type of equal sign and is generally used for declaring variables. Then, there is the double equal sign. This is used in cases such as if statements to see if values match. This, however, does not take into account data types. Lastly, the triple equal sign acts just as the double equal sign though this <i>does</i> take into account data types.</p>
+<br>
+<br>
+<h2 align="center">DOM Manipulations</h2>
+<br>
+<p>The next topic that will be discussed in this Javascript course is DOM (Document object model) manipulations. These essentially allow programmers to modify the CSS of a webpage through Javascript. The image below is an example of that (it changes the text color of the element <i>myDiv</i> to cyan). In order to use DOM manipulations, add <i>.style</i> to an HTML element referenced in your Javascript document then set the property that you wish to change. Keep in mind that in Javascript, the syntax is different. This is why the colon, which would be used in CSS, is changed to an equal sign and why the value of your property must always be wrapped in single or double quotation marks.</p>
+<br>
+<center><img src="JScode9.png" width="800px" class="images"></center>
+<br>
+<p align="center"><b>Examples of DOM Manipulation Properties</b></p>
+<br>
+<center><table id="t2" cellspacing="0" style="width: 800px !important; text-align: center">
+    <tr>
+        <td class="td2"><i>element</i>.style.backgroundColor = 'color'</td>
+    </tr>
+    <tr>
+        <td class="td2"><i>element</i>.style.width = '14px'</td>
+    </tr>
+    <tr>
+        <td class="td2"><i>element</i>.style.fontSize = '25px'</td>
+    </tr>
+</table></center>
+<br>
+<br>
+<h2 align="center">Event Listeners</h2>
+<br>
+<p>In order to interact with HTML elements to cause things to occur, we must use event listeners. The most common one and the one that will be taught in this course is the <i>click</i> event listener. In order to set this up, you must use the .addEventListener() method. In order to use this, specify that it is a "click" event then call your function. This should cause an event to occur (using code inside function) when a certain element of your choice is clicked. The image below shows how this could be used. In this case, the button turns cyan whenever it is clicked through the use of a DOM manipulation.</p>
+<br>
+<center><img src="JScode8.png" width="800px" class="images"></center>
+<br>
+<p align="center"><b>Output of code above:</b></p>
+<br>
+<center><button id="MyButton">Click Me</button></center>
+<br>
+<p>*NOTE: As mentioned earlier, there are other forms of event listeners. However, we specifically choose to focus on click event listeners to keep things simple. For instance, other types of event listeners allow for an event to occur from pressing a key on the keyboard or hovering on an element. Fell free to research some of these if you feel interested.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 align="center">Congratulations! You have completed our Javascript course!</h2>
+<br>
+<br>
+<center><button id="b1"><a href="index.html">Return to homepage →</a></button></center>
+<br>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <nav>
+        <table cellspacing="0" id="t1">
+            <tr>
+                <td class="td1"><img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png" height="50px" width="75px"></td>
+                <td class="td1"><a href="index.html">Homepage</a></td>
+                <td class="td1"><a href="page3.html">CSS and Styling</a></td>
+                <td class="td1"><a href="page4.html">Learn Javascript</a></td>
+                <td class="td1"><a href="page5.html">About the Author</a></td>
+                <td class="td1"><input type="text" placeholder="Search..."></td>
+            </tr>
+        </table>
+        <header>
+            <div id="heading">
+                <h1 align="center">LEARN HTML</h1>
+            </div>
+        </header>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 align="center">What is the purpose of HTML?</h2>
+    <br>
+    <p>HTML is essentially used as the basis of nearly all websites. In other words, it is essential for the majority of websites as it forms the structure from which they are built upon. For example, HTML allows you to add all the basic elements of a website (ex: images, links, paragraphs, titles, etc.). Additionally, HTML also contains certain parts such as links to other pages (ex: <i>.css</i> pages, <i>.js</i> pages) along with other important data. However, HTML on its own is not sufficient to create a website, which is where other languages such as CSS and Javascript are necessary. Regardless, we will teach you everything there is to know about HTML.
+    </p>
+    <br>
+    <br>
+    <h2 align="center">How to start an HTML document</h2>
+    <br>
+    <p align="center">The image below shows how to create the structure for an HTML document.</p> 
+    <br>
+    <center><img src="HTMLcode1.png" width="600px" class="images"></center>
+    <br>
+    <p>The < !DOCTYPE html> is used to declare that the document uses the HTML language. Then, the < html> tag is used to contain all the HTML elements within the code.
+       The < head> tag is used to contain any code that is NOT visible within the actual document. For example, this contains the < title> tag which is used to define the title of the document, meta data and links to other files. However, the code contained within the < body> tag IS visible within the document.
+    </p>
+    <br>
+    <p>Within the body of the document you could add various tags used for all sorts of different purposes. Keep in mind that in HTML, each element has an opening tag and a closing tag.</p>
+    <br>
+    <br>
+    <p align="center"><b>List of important HTML elements:</b></p>
+    <br>
+    <center><table id="t2" cellspacing="0">
+            <tr>
+                <td class="td2">< p>< /p></td>
+                <td class="td2">Creates a paragraph</td>
+            </tr>
+            <tr>
+                <td class="td2">< h1>< /h1></td>
+                <td class="td2">Creates a large heading</td>
+            </tr>
+            <tr>
+                <td class="td2">< a href="put link here">< /a></td>
+                <td class="td2">Creates a link</td>
+            </tr>
+            <tr>
+                <td class="td2">< img src="put image address here"></td>
+                <td class="td2">Creates an image</td>
+            </tr>
+            <tr>
+                <td class="td2">< b>< /b></td>
+                <td class="td2">Bolds text</td>
+            </tr>
+            <tr>
+                <td class="td2">< i>< /i></td>
+                <td class="td2">Creates italic text</td>
+            </tr>
+            <tr>
+                <td class="td2">< mark>< /mark></td>
+                <td class="td2">Highlights text</td>
+            </tr>
+            <tr>
+                <td class="td2">< br>< /br></td>
+                <td class="td2">Creates a line-breaker (space)</td>
+            </tr>
+            <tr>
+                <td class="td2">< hr>< /hr></td>
+                <td class="td2">Creates a horizontal line</td>
+            </tr>
+            <tr>
+                <td class="td2">< center>< /center></td>
+                <td class="td2">Centers text</td>
+            </tr>
+            <tr>
+                <td class="td2">< button>< /button></td>
+                <td class="td2">Creates a button</td>
+            </tr>
+            <tr>
+                <td class="td2">< input>< /input></td>
+                <td class="td2">Creates an input box (ex: text, etc.)</td>
+            </tr>
+            <tr>
+                <td class="td2">< main>< /main></td>
+                <td class="td2">Used for the main content of a webpage</td>
+            </tr>
+            <tr>
+                <td class="td2">< div>< /div></td>
+                <td class="td2">An empty division to be customized with CSS</td>
+            </tr>
+            <tr>
+                <td class="td2">< !--Put comment here--></td>
+                <td class="td2">Creates a comment in HTML</td>
+            </tr>
+    </table></center>
+    <br> 
+    <br>
+    <h2><center>How to create an HTML table</center></h2>
+    <br>
+    <p align="center">Tables are often an essential part of websites. Here is how to create them using HTML.<br> *NOTE you will have to also customize borders and background colors for the table to appear.</p>
+    <br>
+    <center><img src="HTMLcode2.png" width="600px" class="images"></center>  
+    <br>
+    <p align="center"><b>List of important HTML elements for tables:</b></p>
+    <br>
+    <center><table id="t2" cellspacing="0">
+            <tr>
+                <td class="td2">< table>< /table></td>
+                <td class="td2">Creates a table</td>
+            </tr>
+            <tr>
+                <td class="td2">< thead>< /thead></td>
+                <td class="td2">Creates a table header</td>
+            </tr>
+            <tr>
+                <td class="td2">< tbody>< /table></td>
+                <td class="td2">Creates a table body</td>
+            </tr>
+            <tr>
+                <td class="td2">< tfoot>< /tfoot></td>
+                <td class="td2">Creates a table footer</td>
+            </tr>
+            <tr>
+                <td class="td2">< tr>< /tr></td>
+                <td class="td2">Creates a table row</td>
+            </tr>
+            <tr>
+                <td class="td2">< td>< /td></td>
+                <td class="td2">Creates a table cell</td>
+            </tr>
+    </table></center>
+    <br>
+    <br>
+    <h2><center>How to create an HTML list</center></h2>
+    <br>
+    <p align="center">Lists are also an important element of websites. In HTML, there are two types of lists:<br> ordered lists and unordered lists. Here is how to create them:</p>
+    <br>
+    <center><img src="HTMLcode3.png" width="600px" class="images"></center>
+    <br>
+    <p align="center"><b>List of important HTML elements for lists:</b></p>
+    <br>
+    <center><table id="t2" cellspacing="0">
+            <tr>
+                <td class="td2">< ol>< /ol></td>
+                <td class="td2">Creates an ordered list</td>
+            </tr>
+            <tr>
+                <td class="td2">< ul>< /ul></td>
+                <td class="td2">Creates an unordered list</td>
+            </tr>
+            <tr>
+                <td class="td2">< li>< /li></td>
+                <td class="td2">Creates a list item</td>
+            </tr>
+    </table></center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 align="center">Congratulations! You have completed our HTML course!</h2>
+    <br>
+    <br>
+    <center><button id="b1"><a href="page3.html">Take our CSS lesson next:</a></button></center>
+    <br>
+</body>
+</html>
+
+

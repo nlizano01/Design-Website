@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <nav>
+        <table cellspacing="0" id="t1">
+            <tr>
+                <td class="td1"><img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png" height="50px" width="75px"></td>
+                <td class="td1"><a href="index.html">Homepage</a></td>
+                <td class="td1"><a href="page2.html">Learn HTML</a></td>
+                <td class="td1"><a href="page4.html">Learn Javascript</a></td>
+                <td class="td1"><a href="page5.html">About the Author</a></td>
+                <td class="td1"><input type="text" placeholder="Search..."></td>
+            </tr>
+        </table>
+        <header>
+            <div id="heading">
+                <h1 align="center">LEARN CSS</h1>
+            </div>
+        </header>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 align="center">What is the purpose of CSS?</h2>
+    <br>
+    <p>Just like HTML, CSS is another coding language used in web-development. However, CSS is used for the styling of websites and is therefore built off of HTML. CSS could allow you to do things such as change fonts, background colors and even add animations. In this course, we will teach you everything there is to know about CSS.        
+    </p>
+    <br>
+    <br>
+    <h2 align="center">How to start a CSS document</h2>
+    <br>
+    <p align="center"><b>Step 1: Link to your CSS file in your HTML file</b></p>
+    <br>
+    <center><img src="CSScode1.png" class="images" width="600px"></center>
+    <br>
+    <p align="center"><b>Step 2: Add the following code to your CSS file<br> *NOTE this is optional but highly recommended</b></p>
+    <br>
+    <center><img src="CSScode2.png" class="images" width="400px"></center>
+    <br>
+    <br>
+    <h2 align="center">How to set up id's and classes in CSS</h2>
+    <br>
+    <p>CSS allows for coders to style certain HTML elements using either an "id" or a "class" which could be named whatever you wish and will be referenced later in your CSS document. The difference between an id and a class is that an id is specific to a certain element whereas a class is non-specific and could be used on multiple HTML elements. These are to be set up inside an HTML document like this:
+    </p>
+    <br>
+    <center><img src="CSScode3.png" class="images" width="400px"></center>
+    <br>
+    <p align="center"><b>Classes and id's could then be added to a CSS document like this:</b></p>
+    <br>
+    <center><img src="CSScode4.png" class="images" width="250px"></center>
+    <br>
+    <p>The "." is used for classes while the "#" is used for id's. Inside the brackets is where you add your code. For instance, in the two brackets above the "color" property is set to "blue" which makes the text color of these two elements turn blue. It is also important to know that classes and id's must have the <i>exact</i> same name in the CSS document as you named them in the HTML document.</p>
+    <br>
+    <br>
+    <p align="center"><b>Important list of CSS properties:</b></p>
+    <br>
+    <center><table id="t2" cellspacing="0">
+        <tr>
+            <td class="td2">color:</td>
+            <td class="td2">Changes the text color (ex: blue)</td>
+        </tr>
+        <tr>
+            <td class="td2">background-color:</td>
+            <td class="td2">Changes the background color (ex: orange)</td>
+        </tr>
+        <tr>
+            <td class="td2">font-family:</td>
+            <td class="td2">Changes the font family (ex: arial)</td>
+        </tr>
+        <tr>
+            <td class="td2">background-image: <i>url('add url here')</i></td>
+            <td class="td2">Adds a background image</td>
+        </tr>
+        <tr>
+            <td class="td2">font-size:</td>
+            <td class="td2">Changes the font size (use 'px'; ex: 15px)</td>
+        </tr>
+        <tr>
+            <td class="td2">width:</td>
+            <td class="td2">Changes the width of an element (use 'px'; ex: 20px)</td>
+        </tr>
+        <tr>
+            <td class="td2">height:</td>
+            <td class="td2">Changes the height of an element (use 'px' ex: 35px)</td>
+        </tr>
+        <tr>
+            <td class="td2">margin:</td>
+            <td class="td2">Adds a margin to an element *<i>More info later</i></td>
+        </tr>
+        <tr>
+            <td class="td2">border:</td>
+            <td class="td2">Adds a border (ex: 2px solid black)</td>
+        </tr>
+        <tr>
+            <td class="td2">padding:</td>
+            <td class="td2">Adds padding to an element *<i>More info later</i></td>
+        </tr>
+        <tr>
+            <td class="td2">border-radius:</td>
+            <td class="td2">Rounds a border (use 'px' ex: 15px)</td>
+        </tr>
+        <tr>
+            <td class="td2">position:</td>
+            <td class="td2">Changes positioning (ex: fixed, absolute, etc.)</td>
+        </tr>
+        <tr>
+            <td class="td2">display:</td>
+            <td class="td2">Changes the way an element is displayed (ex: grid, flex)</td>
+        </tr>
+        <tr>
+            <td class="td2">float:</td>
+            <td class="td2">Changes the alignment of an element (ex: right, left)</td>
+        </tr>
+    </table></center>
+    <br>
+    <br>
+    <h2 align="center">Units of measurement</h2>
+    <br>
+    <p>In CSS, there are multiple units of measurement which could be used. In the table above, you may have seen 'px' or <i>pixels</i> being used as an example. This is because that is the most commonly used unit of measurement in CSS. How ever, there are others such as 'em', 'rem' or 'vh' which could also be used to size objetcs.</p>
+    <br>
+    <br>
+    <h2 align="center">The box model</h2>
+    <br>
+    <p>In CSS, there is something known as the box model which is used to represent various elements. The box model includes 4 parts: the content, padding, border and margin. As an example, lets use a basic div *<i>Info in 'Learn HTML'</i>. The content would represent any content <i>inside</i> the div such as text, images, etc. The padding, however, is space that is not considered part of the content but is used to make an element bigger. Then, the border is as it sounds and represents the border of an element. Lastly, the margin is space outside the border that acts similar to padding with the main difference being that it is outside of the border. All of these sections could be customized with CSS *<i>Note: to change the size of the content use 'width' and 'height'.</i></p>
+    <br>
+    <center><img src="CSScode5.png" class="images" width="600px"></center>
+    <br>
+    <br>
+    <h2 align="center">Positioning</h2>
+    <br>
+    <p>One of the most important concepts to understand in CSS is positioning. This is what allows a coder to position elements the way in which they want to. As shown above in the list of important properties, you can choose the way in which you want an element to be positioned with the 'position:' property. There are multiple different positions that could be used such as 'relative', which positions an element relative to others and 'fixed', which places an element in a fixed area in the screen, though the most important one to understand is 'absolute'. This makes it so that an element always remains in the same area, however, unlike a 'fixed' element, an 'absolute' element moves when you scroll down. Once you set up your position, you may use the 'top', 'bottom', 'left' and 'right' properties to customize the positioning of an element. For example, if an element is set to 'position: absolute' and 'top: 40px', this means that that element is 40 pixels from the top of the webpage. Keep in mind that with 'position: absolute', this will change if a user scrolls down.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 align="center">Congratulations! You have completed our CSS course!</h2>
+    <br>
+    <br>
+    <center><button id="b1"><a href="page4.html">Take our Javascript lesson next:</a></button></center>
+    <br>
+</body>
+</html>
+
+
+
